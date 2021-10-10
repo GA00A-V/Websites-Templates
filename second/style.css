@@ -1,0 +1,24 @@
+.contents {
+    display: flex;
+}
+
+img{
+    height: 630px;
+    margin: 10px;
+    margin-left: 10px;
+    transition-duration: 0.2s;
+}
+
+h1{
+    border-bottom: 2px solid rgba(244, 22, 11, 0.5);
+    width: 270px;
+    border-right: 2px solid rgba(244, 22, 11, 0.5);
+    font-family: cursive
+}
+img:hover{
+    transform: scale(1.01);
+}
+body{
+    background-color: rgba(70, 250, 255, 0.2);
+    background-size: contain;
+}

@@ -1,0 +1,106 @@
+body{
+    margin: auto 0;
+}
+.zone {
+/*
+    padding:30px 50px;
+    margin:40px 60px;
+*/
+    cursor:pointer;
+/*    display:inline-block;*/
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.box > img{
+    width: 100%;
+}
+.box{
+    background-color: #444;
+    padding: 80px;
+    margin: 20px;
+    transition-duration: 0.4s;
+}
+.box:hover{
+    transform: rotate(-7deg);
+}
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding: 10vh;
+}
+
+.push{
+    margin-left: auto;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.zone:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green{
+    background: #56B870; /* Old browsers */
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red{
+    background: #C655BE; /* Old browsers */
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow{
+    background: #F3AAAA; /* Old browsers */
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue{
+    background: #7abcff; /* Old browsers */
+}
+.f{
+    text-align: center;
+}
+.cover{
+    width: 30rem;
+    
+    
+}
+

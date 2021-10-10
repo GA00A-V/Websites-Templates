@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+    <nav>
+    <ul>
+        <li><a href="index.html"><button>HOME</button></a></li>
+        <li><a href="about.html"><button>ABOUT</button></a></li>
+        <li><a href="login.html"><button>LOGIN</button></a></li>
+        </ul>
+        </nav>
+    </header>
+<div class="detail">
+<form action='thanks' method="post">
+    First Name: <input type="text" name="firstname" ><br>
+    Last Name: <input type="text" name="lastname" ><br>
+    Email: <input type="email" name="email" ><br>
+     Password: <input type="password" name="password" minlength=8><br>
+    <!--common inputs -->
+    Gender: <input type="radio" name="gender" value="Male" class="gender">Male 
+    <input type="radio" name="gender" value="Female" class="gender">Female 
+    <input type="radio" name="gender" value="Other" class="gender">Other <br>
+    Pets:
+        <input type="checkbox" name="pets" value="Dog" class="pet"> Dog <input type="checkbox" name="pets" value="Cat" class="pet"> Cat <br>
+    Birthday: <input type="date" name="Birthdate"><br>
+    Cars: <select name="Cars">
+    <option value="volvo">Volvo</option><br>
+    <option value="audi">Audi</option><br><option value="bugatti">Bugatti</option><br><option value="lamborgini">Lamborgini</option><br>
+    </select>
+    <br>
+    <div class="submit">
+    <input type="submit" class="data"> 
+    </div>
+</form>
+</div>
+</body>
+</html>
