@@ -103,4 +103,8 @@ a{
     
     
 }
-
+@media only screen and (max-width:610px){
+	.main-nav{
+		font-size: 0.5em;
+	}
+}
